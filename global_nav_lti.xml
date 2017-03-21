@@ -1,0 +1,16 @@
+<cartridge_basiclti_link xmlns="http://www.imsglobal.org/xsd/imslticc_v1p0" xmlns:blti="http://www.imsglobal.org/xsd/imsbasiclti_v1p0" xmlns:lticm="http://www.imsglobal.org/xsd/imslticm_v1p0" xmlns:lticp="http://www.imsglobal.org/xsd/imslticp_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imslticc_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticc_v1p0.xsd http://www.imsglobal.org/xsd/imsbasiclti_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imsbasiclti_v1p0p1.xsd http://www.imsglobal.org/xsd/imslticm_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticm_v1p0.xsd http://www.imsglobal.org/xsd/imslticp_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticp_v1p0.xsd">
+  <blti:title>Global Nav item hack</blti:title>
+  <blti:description>Shove more items into the Global Nav because ¯\_(ツ)_/¯</blti:description>
+  <blti:extensions platform="canvas.instructure.com">
+    <lticm:options name="global_navigation">
+    <lticm:property name="display_type">full_width</lticm:property>
+    <lticm:property name="icon_url"> <!-- Change this to the icon you want to use -->
+https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg
+    </lticm:property>
+    <lticm:property name="text">Wikipedia</lticm:property> <!-- The link text you want to show -->
+    <lticm:property name="url"> <!-- URL to open, must be https to open inline -->
+https://wikipedia.org
+    </lticm:property>
+  </blti:extensions>
+</cartridge_basiclti_link>
+
